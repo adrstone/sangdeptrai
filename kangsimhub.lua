@@ -2,7 +2,7 @@
 local validKey = 'caa72c81673275da083638d9'
 
 -- Giả sử bạn đã nhận key từ người dùng ở đâu đó, gán vào getgenv().Key:
-getgenv().Key = 'caa72c81673275da083638d9'  -- <-- Đặt đúng key ở đây thì phần bên trong if sẽ chạy
+getgenv().Key = ''  -- <-- Đặt đúng key ở đây thì phần bên trong if sẽ chạy
 
 -- Kiểm tra và thực thi
 if getgenv().Key == validKey then
