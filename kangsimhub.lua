@@ -1,5 +1,5 @@
 -- Key hợp lệ
-local validKey = 'caa72c81673275da083638d9'
+local validKey = 'sanguzumaki'
 
 -- Giả sử bạn đã nhận key từ người dùng ở đâu đó, gán vào getgenv().Key:
 repeat wait() 
